@@ -1,33 +1,35 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     font-family: 'Work Sans', sans-serif;
 }
 
 
-header{
+header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     background-image: url(/images/banner/banner3.png);
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     text-align: end;
     color: white;
 }
-.header-div{
+
+.header-div {
     width: 700px;
     margin-right: 100px;
 }
-.header-div > h1{
+
+.header-div>h1 {
     font-weight: 600;
     font-size: 60px;
     margin-bottom: 25px;
 }
 
-.btn-primary{
+.btn-primary {
     background-color: white;
     font-weight: bolder;
     color: #005FAC;
@@ -40,3 +42,47 @@ header{
 
 /* header end  */
 
+/* previous year style  */
+
+.previous-year>div {
+    display: flex;
+    justify-content: center;
+}
+
+.top-left>img {
+    height: 75%;
+
+}
+
+
+
+.top-right {
+    display: flex;
+    align-items: center;
+}
+
+.top-right>div>h1{
+    font-weight: 700;
+font-size: 40px;
+}
+
+.top-right>div>p {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: #1f1f1f;
+    font-weight: bold;
+
+
+}
+.top-right>div>div{
+
+
+}
+
+span {
+    color: rgb(120, 255, 120);
+    font-weight: bolder;
+
+}
+ /* previous year style end
+  */
