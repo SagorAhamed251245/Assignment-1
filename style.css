@@ -61,7 +61,7 @@ header {
     align-items: center;
 }
 
-.top-right>div>h1{
+.top-right  >div>h1 ,.primary-title {
     font-weight: 700;
 font-size: 40px;
 }
@@ -108,10 +108,35 @@ margin-bottom: 15px;
 
     font-weight: bolder;
     font-size: 16px;
-    color:#777777
+    color:#777777;
+    
   }
 
 
 
 
-  /* !-- My plans style end  --> */
+  /* My plans style end  */
+
+  /* bottom Banner start */
+
+  .bottom-banner{
+    display: flex;
+    align-items: center;
+    background-image: url(./images/watch.png) , linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size:  auto 100%;
+    background-position: center center;
+    margin-bottom: 50px;
+    height: 300px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 20px;
+    
+  }
+
+  .bottom-banner>div{
+    margin-left: 60px;
+  }
+
+  
