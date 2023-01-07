@@ -86,3 +86,35 @@ span {
 }
  /* previous year style end
   */
+
+  /* !-- My plans style start  --> */
+
+  .My-Plans{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px;
+  }
+
+  .My-Plans>div{
+    text-align: center;
+  }
+
+  
+  .My-Plans>div>h3{
+    font-weight: 700;
+font-size: 25px;
+margin-top: 5px;
+margin-bottom: 15px;
+  }
+
+  .My-Plans>div>p{
+
+    font-weight: bolder;
+    font-size: 16px;
+    color:#777777
+  }
+
+
+
+
+  /* !-- My plans style end  --> */
