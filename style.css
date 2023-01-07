@@ -64,6 +64,7 @@ header {
 .top-right  >div>h1 ,.primary-title {
     font-weight: 700;
 font-size: 40px;
+color: #005FAC;
 }
 
 .top-right>div>p {
@@ -84,6 +85,33 @@ span {
  /* previous year style end
   */
 
+  /* keep doing style  */
+
+  .keep-doing{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-bottom: 100px;
+  }
+
+  .keep-doing-left >p{
+    margin-top: 25px;
+  margin-bottom: 10px;
+  color: #1f1f1f;
+  font-weight: bold;
+
+  }
+
+  .keep-doing-right >img{
+    height: 75%;
+    
+
+  }
+
+
+  
+
+
   /* !-- My plans style start  --> */
 
   .my-plans{
@@ -102,6 +130,7 @@ span {
 font-size: 25px;
 margin-top: 5px;
 margin-bottom: 15px;
+color: #005FAC;
   }
 
   .my-plans>div>p{
@@ -142,6 +171,11 @@ margin-bottom: 15px;
   /* bottom-banner end
    */
 
+
+
+
+
+ /* footer section start  */
     footer{
         height: 500px;
         background-color: black;
