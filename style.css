@@ -89,25 +89,25 @@ span {
 
   /* !-- My plans style start  --> */
 
-  .My-Plans{
+  .my-plans{
     display: flex;
     justify-content: space-around;
     margin-bottom: 50px;
   }
 
-  .My-Plans>div{
+  .my-plans>div{
     text-align: center;
   }
 
   
-  .My-Plans>div>h3{
+  .my-plans>div>h3{
     font-weight: 700;
 font-size: 25px;
 margin-top: 5px;
 margin-bottom: 15px;
   }
 
-  .My-Plans>div>p{
+  .my-plans>div>p{
 
     font-weight: bolder;
     font-size: 16px;
