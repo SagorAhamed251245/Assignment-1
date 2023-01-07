@@ -139,4 +139,57 @@ margin-bottom: 15px;
     margin-left: 60px;
   }
 
+  /* bottom-banner end
+   */
+
+    footer{
+        height: 500px;
+        background-color: black;
+        display: flex;
+    }
+
+    .left-footer{
+        width: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    .left-footer >div{display: flex;
+        align-items: center;
+        width: 75%;
+
+    }
+
+    .right-footer{
+        width: 50%;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .right-footer >div >input{
+        width: 250px;
+    height: 40px;
+    border: 1px solid white;
+    outline: none;
+    border-radius: 10px;
+    background-color: transparent;
+    color: white;
+    padding-left: 5px;
+    margin-top: 20px;
+    }
+
+
+    .subscribe-btn{
+        margin-top: 10px;
+        color: white;
+        background-color: #005FAC;
+    }
+
+  
+
   
