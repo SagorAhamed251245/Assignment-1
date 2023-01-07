@@ -11,7 +11,7 @@ header {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    background-image: url(/images/banner/banner3.png);
+    background-image: url(./images/banner/banner3.png);
     height: 100vh;
     margin-bottom: 120px;
     text-align: end;
